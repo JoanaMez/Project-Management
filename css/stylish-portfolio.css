@@ -16,6 +16,21 @@ body {
     font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
+.recipe-list {
+    list-style-type:  none;
+    text-align: left;
+    padding: 0;
+}
+
+.align-instructions{
+    background-color: red;
+}
+
+.header-left{
+
+    text-align: left;
+}
+
 .text-vertical-center {
     display: table-cell;
     text-align: center;
@@ -309,4 +324,13 @@ footer {
   position: fixed;
   bottom: 5px;
   right: 5px;
+}
+
+
+.recipe-list li{
+    margin-bottom: 2em;
+}
+
+.std-padding-bottom{
+    padding-bottom: 1em;
 }
