@@ -22,8 +22,11 @@ body {
     padding: 0;
 }
 
-.align-instructions{
-    background-color: red;
+.bg-primary{
+    background-color:#8BC34A ;
+}
+.text-primary{
+    color: #8BC34A;
 }
 
 .header-left{
@@ -169,8 +172,12 @@ hr.small {
     display: table;
     position: relative;
     width: 100%;
-    height: 100%;
-    background: url(../img/bg3.jpg) no-repeat center center scroll;
+    /*height: 100%;*/
+
+    height: 1020px;
+
+
+    background: url(../img/bg18.jpg) no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -222,7 +229,11 @@ hr.small {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+
 }
+
+
+
 #imaginary_container{
     margin-top:20%; /* Don't copy this */
 }
@@ -333,4 +344,12 @@ footer {
 
 .std-padding-bottom{
     padding-bottom: 1em;
+}
+#imaginary_container{
+
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 0.5em;
+    margin-top: 15%;
+    padding-bottom: 1em;
+
 }
